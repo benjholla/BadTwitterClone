@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /register.html
+Disallow: /login.php
+Disallow: /logout.php
+Disallow: /post.php
+Disallow: /config.php

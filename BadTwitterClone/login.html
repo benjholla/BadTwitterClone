@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="SHORTCUT ICON" href="/BadTwitterClone/favicon.ico">
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>BadTwitterClone - Login</title>
+</head>
+<body>
+<center>
+<h1>BadTwitterClone Login <img border="0" src="/BadTwitterClone/images/sadbird.png" alt="Bad Twitter Clone Logo" width="130" height="110" /></h1>
+</center>
+<br />
+<center><a href="/BadTwitterClone/">Home</a></center>
+<br />
+
+<script type="text/javascript">
+function check(){
+if(!checkusernamepass()){return false;}
+}
+</script>
+
+<script>
+function checkusernamepass(){
+if (document.registration.username.value.length==0){
+alert("Please enter a username");
+return false;
+}
+if(document.registration.password.value.length==0)
+{
+alert("Please enter a password");
+return false;
+}
+return true;
+}
+</script>
+
+<br />
+<form name=registration action="login_results.php" method="post" onSubmit="return check()"><span style="font-weight: bold;">
+Username:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="username"><br />
+<br />
+<span style="font-weight: bold;">Password:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp;<input name="password" type="password"><br />
+<br />
+<input value="Login" type="submit"></form>
+<br />
+</body>
+</html>
