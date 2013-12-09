@@ -3,10 +3,10 @@ BadTwitterClone
 
 An insecure website for learning to hack
 
-**Setup***
+# Setup
 
-Expects a MySql Database with the name "badtwitterclone"
-Expects two existings tables
+- Expects a MySql Database with the name "badtwitterclone"
+- Expects two existings tables
 
 "tweets"
  - with field "ID" of type "timestamp" defaults to "CURRENT_TIMESTAMP"
