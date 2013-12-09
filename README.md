@@ -3,7 +3,7 @@ BadTwitterClone
 
 An insecure website for learning to hack
 
-# Setup
+## Setup
 
 - Expects a MySql Database with the name "badtwitterclone"
 - Expects two existings tables
