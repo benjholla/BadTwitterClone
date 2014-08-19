@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `Tweets` (
 --
 
 INSERT INTO `Tweets` (`ID`, `Username`, `Tweet`) VALUES
-('2014-08-19 10:44:12', 'test', 'I like turtles!');
+('2014-08-19 10:44:12', 'admin', 'My first tweet!');
 
 -- --------------------------------------------------------
 
